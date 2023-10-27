@@ -1,0 +1,35 @@
+.bloc1,.bloc2,.bloc3,.bloc4,.bloc5{
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+	border: solid 2px black;
+}
+
+.bloc1{
+	background-image: linear-gradient(to left bottom, red, green, blue);
+}
+
+.bloc2{
+	background-image: linear-gradient(to left top , yellow, purple 20%);
+	
+}
+
+.bloc3{
+	background-image: linear-gradient(to top , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+	
+}
+
+.bloc4{
+	background-image: radial-gradient(circle at center , rgb(160, 238, 243), rgb(243, 160, 236));
+	
+}
+
+.bloc5{
+	background-image: repeating-radial-gradient(black, white 10px);
+	
+}
+
+.bloc5:hover{
+	background-image: repeating-radial-gradient(white, black 10px);
+	
+}
